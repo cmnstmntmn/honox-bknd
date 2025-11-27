@@ -30,5 +30,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+data.db
+public/assets
+public/favicon.ico
+public/manifest.json
+app/worker-configuration.d.ts
+
 # misc
 .DS_Store
