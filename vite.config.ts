@@ -1,3 +1,4 @@
+// import { devServer } from "bknd/adapter/vite";
 import build from '@hono/vite-build/cloudflare-workers'
 import adapter from '@hono/vite-dev-server/cloudflare'
 import tailwindcss from '@tailwindcss/vite'
@@ -11,6 +12,13 @@ export default defineConfig({
       client: { input: ['/app/client.ts', '/app/style.css'] }
     }),
     tailwindcss(),
-    build()
-  ]
+    build(),
+
+    // -- is this required, has no effect
+    //
+    // devServer({
+    //   // point to your previously created server file
+    //   entry: "./app/server.ts",
+    // }),
+  ],
 })
