@@ -11,7 +11,7 @@
     ],
     "types": [
       "vite/client",
-      "@cloudflare/workers-types/2023-07-01"
+      "./app/worker-configuration.d.ts"
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"

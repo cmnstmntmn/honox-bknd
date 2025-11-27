@@ -4,9 +4,9 @@ import { createApp } from 'honox/server'
 // --- bknd -- adding these here will make the process to freeze
 // i think that's something wrong with vite
 
-import type { App } from "bknd";
-import { getFresh } from "bknd/adapter/cloudflare";
-import { Api } from "bknd/client";
+// import type { App } from "bknd";
+// import { getFresh } from "bknd/adapter/cloudflare";
+// import { Api } from "bknd/client";
 
 const app = createApp()
 
